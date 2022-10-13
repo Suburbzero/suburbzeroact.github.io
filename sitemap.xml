@@ -12,6 +12,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://www.suburbzeroact.au/about/</loc>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.suburbzeroact.au/post/4/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -19,6 +24,19 @@
   </url><url>
     <loc>https://www.suburbzeroact.au/post/5/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.suburbzeroact.au/post/</loc>
+    <lastmod>1970-01-01T10:33:42+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.suburbzeroact.au/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.suburbzeroact.au/soundgood/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -82,12 +100,32 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.suburbzeroact.au/about/about_the-_programme/</loc>
-    <lastmod>2022-09-09T00:00:00+00:00</lastmod>
+    <loc>https://www.suburbzeroact.au/</loc>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.suburbzeroact.au/about/</loc>
+    <loc>https://www.suburbzeroact.au/tags/measures/</loc>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.suburbzeroact.au/tags/pilot/</loc>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.suburbzeroact.au/tags/</loc>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.suburbzeroact.au/about/the-pressing-need/</loc>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.suburbzeroact.au/about/about_the-_programme/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -107,16 +145,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.suburbzeroact.au/</loc>
-    <lastmod>2022-09-09T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.suburbzeroact.au/tags/measures/</loc>
-    <lastmod>2022-09-09T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.suburbzeroact.au/tags/other/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -127,31 +155,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.suburbzeroact.au/tags/pilot/</loc>
+    <loc>https://www.suburbzeroact.au/about/six_things/</loc>
     <lastmod>2022-09-09T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.suburbzeroact.au/about/six-things/</loc>
-    <lastmod>2022-09-09T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.suburbzeroact.au/tags/</loc>
-    <lastmod>2022-09-09T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.suburbzeroact.au/post/</loc>
-    <lastmod>1970-01-01T10:33:42+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.suburbzeroact.au/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.suburbzeroact.au/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
