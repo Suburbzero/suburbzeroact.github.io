@@ -35,13 +35,13 @@ You want to know what I can do for you?
 Well, let me tell ya!
 Nutrition Coaching This is not an easy task. You will likely have to pay money for this. You know what - let us look at a nice picture first." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.suburbzeroact.au/services/" /><meta property="og:image" content="https://www.suburbzeroact.au/images/Image_001.png"/><meta property="article:section" content="" />
+<meta property="og:url" content="https://www.suburbzeroact.au/services/" /><meta property="og:image" content="https://www.suburbzeroact.au/images/S0_web_header_1x1.svg"/><meta property="article:section" content="" />
 
 <meta property="og:site_name" content="Suburb Zero" />
 
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://www.suburbzeroact.au/images/Image_001.png"/>
+<meta name="twitter:image" content="https://www.suburbzeroact.au/images/S0_web_header_1x1.svg"/>
 
 <meta name="twitter:title" content="Services"/>
 <meta name="twitter:description" content="This is a page about the services, which I offer.
@@ -57,7 +57,7 @@ You want to know what I can do for you?
 Well, let me tell ya!
 Nutrition Coaching This is not an easy task. You will likely have to pay money for this. You know what - let us look at a nice picture first.">
 
-<meta itemprop="wordCount" content="102"><meta itemprop="image" content="https://www.suburbzeroact.au/images/Image_001.png"/>
+<meta itemprop="wordCount" content="102"><meta itemprop="image" content="https://www.suburbzeroact.au/images/S0_web_header_1x1.svg"/>
 <meta itemprop="keywords" content="" />
 
 
@@ -66,43 +66,90 @@ Nutrition Coaching This is not an easy task. You will likely have to pay money f
 
 
 <style>
-      
-     a:hover {
-         color: #b6b84c;
-     }
 
-      
-     
-     .inner {
-position: absolute;
-width: 80%;
-top: 0;
-max-width: 700px;
-margin: 0 auto;
+ 
+        button {
+        display: inline-block;
+        background-color:  #facc26;
+        border-radius: 10px;
+        border: 4px  #cccccc;
+        color:  black;
+        text-align: center;
+        font-size: 10px;
+        padding: 4px;
+         
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+  
+
+ 
+.bkgImagecontain{
+background-size: contain;
+background-repeat: no-repeat;
+}
+ 
+
+.bgImgCenter{
+    background-image: url('imagePath');
+    background-repeat: no-repeat;  
+    position: absolute;
 }
 
-
-
 #site-head {
-
-  text-align: left;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 25% 0;
+  margin-bottom: 0rem;
+  color: #fff;
+  background: #fceba8 no-repeat center center;
+  
+  background-size: contain;
 }
 
  
 
-.blog-title {
+ 
 
+ 
+
+.blog-title {
 color: #f8c31f;
    
 }
+
+
+.blog-description {
+
+font-size: 18pt;
+color:#156D83;
+}
+
+@media only screen and (max-width: 1366px) {
+.blog-description {
+
+font-size: 14pt; 
+}
+}
+
+@media only screen and (max-width: 500px) {
+.blog-description {
+
+font-size: 10pt; 
+}
+}
+
         .vertical { 
      Display:inline; 
   text-align: center;
-    vertical-align: middle;
+  vertical-align: top;
+    
 }
 
 #header-arrow {
@@ -122,28 +169,151 @@ color: #f8c31f;
   -moz-transition: all ease 0.3s;
 }
 
+ 
+ 
+.topMenuLeftImage {
+	float: left;
+	position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 120px;max-height: 90px
+    height: auto; 
+    width: auto;   
+}
+  
+  .taglineImage { 
+	 
+  
+    position: absolute;
+    top: 10%;
+    right:2%; 
+    max-width: 25%; 
+    width: 35%;   
+}
+
+
+@media screen and (max-width: 340px) {
+  .taglineImage { 
+	 
+  
+    position: absolute;
+    top: 15%;
+    right:2%; 
+    max-width: 25%; 
+    width: 35%;   
+}
+}
+  
+.topnav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-height: 55px;   
+    background: #fff;
+      width: 100%;  
+    overflow: hidden;
+}
 
  
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
+ 
+.topnav a:hover {
+  background-color: #ddd; 
+}
 
-      
+ 
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+ 
+.topnav-right {
+  float: right;
+}
+
+ 
+#hamnav {
+  
+}
+ 
+ 
+#hamnav {
+   float: right;
+ 
+  text-align: right;
+  padding: 1px 2px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+ 
+#hamitems { display: flex; }
+#hamitems a {
+ 
+  padding: 10px;
+  color: blue;
+  text-decoration: none;
+  text-align: right;
+}
+#hamitems a:hover { 
+ 
+ }
+
+ 
+#hamnav label, #hamburger { display: none; }
+
+ 
+@media screen and (max-width: 768px){
+   
+  #hamitems a {
+    box-sizing: nil;
+    
+    width: 100%;
+    
+    padding: 1px; 
+  }
+
+   
+  #hamnav label {
+    display: inline-block; 
+    color: #a02620; 
+    font-style: normal;
+    font-size: 2em;
+    padding: 0px;
+  }
+
+   
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
+
+  
  
   
 
 a.btn {
   text-decoration: none;
   background-color: #f8c31f;
-  border-radius: 6px;
+  border-radius: 1px;
   -webkit-border-radius: 6px;
   color: black;
   display: content;
-  font-size: 13px;
+  font-size: 4px;
   letter-spacing: 1px;
-  margin: 0;
+   margin-right: 5px;
   overflow: visible;
-  padding: 1px 10px 1px 10px;
+  padding: 1px 1px 1px 1px;
   position: top;
-  margin-top: 2rem;
+  margin-top: 0rem;
   cursor: pointer;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -180,7 +350,7 @@ a.btn {
      
 .post {
   position: relative;
-  width: 80%;
+  width: 90%;
   max-width: 2048px;
   margin: 0rem auto;
   padding-bottom: 4rem;
@@ -204,9 +374,132 @@ a.btn {
           color: #BBC7CC;
           background-color: #22343A;
      }
+     
+
+     
+    
+.row {
+  display: flex;
+}
+
+ 
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+ 
+}
+
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .row {
+    display: block;
+  }
+  .column
+  {
+      width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+ 
+ 
+.inner {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  width: 40%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 800px) {
+.inner {
+ 
+  top: 12%;
+  left: 5%;
+  width: 60%; 
+}
+}
+
+@media screen and (max-width: 1400px) {
+.inner {
+ 
+  top:  10%;
+  left: 5%;
+  width: 60%; 
+}
+}
+
+body {
+    height: 100%;
+    max-height: 100%;
+     
+    font-family: "Roboto Slab", serif;
+    font-size: 2rem; 
+        line-height: 1.6em;
+    color: #3a4145;
+}
+
+pre {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0em 0;
+  border: 1px solid #e3edf3;
+  width: 100%;
+  padding: 10px;
+  font-family: Inconsolata, monospace, sans-serif;
+  font-size: 0.9em;
+  white-space: pre;
+  overflow: auto;
+  background: #f7fafb;
+  border-radius: 3px;
+}
+
+table {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: .1em 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+}
+
+ h1 {
+     font-size: 2em;
+     margin: 0.0em 0;
+ }
+ 
+ ol ol,
+ul ul,
+ul ol,
+ol ul {
+  margin: 0.0em 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #efefef;
+  margin: 0em 0;
+  padding: 0;
+}
 </style> 
-
-
+ 
 
 
 
@@ -231,6 +524,7 @@ a.btn {
   sizes="16x16"
   href="https://www.suburbzeroact.au/images/favicon-16x16.png"
 />
+
 <body>
   <main class="content page-template page-" role="main">
     <article class="post page">
