@@ -4,7 +4,9 @@ title: "FAQ"
 
 ####  Q1. What exactly is 'an electrified household'?
 
- Practically, in the average Australian household there are 6 pieces of equipment that could be installed, converted to electric or upgraded to be more efficient: rooftop solar, battery, cooking, heating & cooling, hot water and an electric vehicle.  things that could be transitioned to electric - rooftop solar, a home battery, cooking, heating, hot water and an electric vehicle.  
+ Practically, in the average Australian household there are 6 pieces of equipment that could be installed, converted to electric or upgraded to be more efficient: rooftop solar, battery, cooking, heating & cooling, hot water and an electric vehicle.  
+ 
+ Things that could be transitioned to electric - rooftop solar, a home battery, cooking, heating, hot water and an electric vehicle.  
 
 ####  Q2. What is the purpose of the pilots?
 
