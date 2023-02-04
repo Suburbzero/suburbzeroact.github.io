@@ -5,4 +5,4 @@ We are advocating for massive change in home appliances to reduce our carbon foo
 
 Join us if you live in Canberra, Australia.
 
-[[http://www.suburbzeroact.au]]
+https://www.suburbzeroact.au
