@@ -6,7 +6,6 @@ baseURL = "https://www.suburbzeroact.au/"
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
 defaultContentLanguage = "en"
-publishDir = "suburbzeroact.github.io"
 relativeURLs = true
  
 # The name of this wonderful theme ;-).
