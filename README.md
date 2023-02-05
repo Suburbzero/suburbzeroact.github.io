@@ -11,7 +11,7 @@ Join us if you live in Canberra, Australia.
 * Changes to the text are made to md files in the content folder.
 * md files are a slightly augmented  markdown format
 * unfamiliar formatting  can be played with but only if you are prepared to undo or  repair (it's not that scary)
-* because this is git. EVERYTHING is version controlled. There are very few undo-able actions - except for the time
+* because this is git. EVERYTHING is version controlled. Mistakes are for the most part -  with no cost except for the time ;)
   
 ![skywhale](https://github.com/Suburbzero/suburbzeroact.github.io/blob/main/images/S0_web_why_1x1.png?raw=true)
 https://www.suburbzeroact.au
