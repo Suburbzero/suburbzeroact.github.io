@@ -1,13 +1,14 @@
 --- 
-title: "FAQ" 
+title: "FAQs" 
 ---  
+Some answers to frequently asked questions about the suburb zero ACT plan.
 
 ####  Q1. What exactly is 'an electrified household'?
 
  Practically, in the average Australian household there are 6 pieces of equipment that could be installed, converted to electric or upgraded to be more efficient: rooftop solar, battery, cooking, heating & cooling, hot water and an electric vehicle.  
  
  Things that could be transitioned to electric - rooftop solar, a home battery, cooking, heating, hot water and an electric vehicle.  
-{{< figure src="/images/S0_web_about_1x1.svg"   >}}
+{{< figure src="/images/S0_web_about_1x1.svg"  width="70%" >}}
 ####  Q2. What is the purpose of the pilots?
 
  By connecting all the homes in a street or suburb, these pilots can prove that climate action makes environmental and economic sense.  
