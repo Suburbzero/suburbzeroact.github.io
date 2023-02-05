@@ -1,11 +1,11 @@
-### Suburb Zero ACT (Australian Capital Territory)
+### Suburb Zero ACT (Australian Capital Territory) 
+![logo](https://github.com/Suburbzero/suburbzeroact.github.io/blob/main/images/S0_RGB_01_colour_lo.png?raw=true)
 
 This is the webpage for a community group.
 We are advocating for massive change in home appliances to reduce our carbon footprint.
 
 Join us if you live in Canberra, Australia.
 
-![alt text](https://github.com/Sub/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 #### Quick Start for contributors
 * Changes to the text are made to md files in the content folder.
@@ -13,5 +13,5 @@ Join us if you live in Canberra, Australia.
 * unfamiliar formatting  can be played with but only if you are prepared to undo or  repair (it's not that scary)
 * because this is git. EVERYTHING is version controlled. There are very few undo-able actions - except for the time
   
-
+![skywhale](https://github.com/Suburbzero/suburbzeroact.github.io/blob/main/images/S0_web_why_1x1.png?raw=true)
 https://www.suburbzeroact.au
