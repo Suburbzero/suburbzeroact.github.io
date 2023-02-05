@@ -4,7 +4,7 @@
 This is the webpage for a community group.
 We are advocating for massive change in home appliances to reduce our carbon footprint.
 
-Join us if you live in Canberra, Australia.
+Join us if you live in Canberra, Australia. https://www.suburbzeroact.au
 
 
 #### Quick Start for contributors
@@ -14,4 +14,4 @@ Join us if you live in Canberra, Australia.
 * because this is git. EVERYTHING is version controlled. Mistakes are for the most part -  with no cost except for the time ;)
   
 ![skywhale](https://github.com/Suburbzero/suburbzeroact.github.io/blob/main/images/S0_web_why_1x1.png?raw=true)
-https://www.suburbzeroact.au
+
