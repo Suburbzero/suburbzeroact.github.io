@@ -16,7 +16,7 @@ Through the help of our volunteers and climate policy maker, Dr Saul Griffith, w
 
 We want to subsidise and support participating households that are willing to electrify six things:<br><br>
 
-(1) Hot water pump, (2) indoor heating, (3) rooftop solar, (4) stove tops, (5) household battery and your (6) cars.
+(1) Hot water pump, (2) indoor heating, (3) rooftop solar, (4) stove tops, (5) battery storage and your (6) cars.
 {{< /column >}}
 {{< /container >}}
   
