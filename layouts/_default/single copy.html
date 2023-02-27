@@ -1,0 +1,32 @@
+
+
+{{ define "main" }}
+
+<style>
+body {background-color:  #fceba8 ;}
+h1, h2, h3, h4   {color: blue;  }	
+p    {color: black; }
+ 
+</style>
+
+  <main class="content page-template page-{{ .Slug }}" role="main">
+      <header class="post-header">
+       
+     </header>
+        
+    <article  > 
+    <a href="{{ "/" | relURL }}"> <img src="/images/S0_RGB_02_all_purple.svg"  class="topMenuLeftImage"  ></a>
+        
+     <div class='post page'>
+      <div class='post'>
+       
+         <br> <br> 
+      </header>
+      <h1 class="post-title">{{ .Title }}</h1> 
+        <br> <br>  
+        {{ .Content }} 
+    	</div>        
+    </div>
+    </article>
+  </main>
+{{ end }}
