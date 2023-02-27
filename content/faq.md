@@ -81,8 +81,8 @@ While  $12 billion sounds like a lot, it equates to less than 10% of COVID stimu
 
  Electrifying our homes will not only slash our emissions, it will also save households money on energy bills. By 2030 an electrified household will save on average  $5,000 per year on their energy and fuel costs. Currently lower-income homes spend nearly double their earnings on energy costs.[^2]  
 
-####  Q14. Okay, I've taken the survey and signed up to the mailing list.  Is there anything else I can do to help support Suburb Zero?
-
+####  Q14. Okay, I've taken the  [survey](https://surveymonkey.com/r/electrifyACT) and signed up to the mailing list.  Is there anything else I can do to help support Suburb Zero?
+ 
  We are always looking for help! Please     {{< cloakemail address="suburbzeroact@gmail.com" display=" email" query="subject=Enquiry from SuburbZeroACT webpage">}} with your expertise and we'll be in touch. 
  
   [^1]:The Big Switch: Australia’s Electric Future, Saul Griffith, published 2022. Page 145. 
