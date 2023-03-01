@@ -36,13 +36,13 @@
 
       <!-- (C) MENU ITEMS -->
       <div id="hamitems"> 
-
+            {{ range first 10 (where .Site.RegularPages "Section" "in" "post") }}
+      					<a href="{{ .RelPermalink }}">{{ .Title }}</a> 
+    		{{ end }}
             {{ range where $sections ".Params.header_menu" "eq" true }}
                     <a href='&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
             {{ end }}
-             {{ range .Pages }}
-      					<a href="{{ .RelPermalink }}">{{ .Title }}</a> 
-    		{{ end }}
+
         </div>
     </nav>
  </div> 
