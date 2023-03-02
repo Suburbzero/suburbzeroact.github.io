@@ -66,12 +66,38 @@
             </article>
 			 <div class='post-after'></div>  <div class='post-holder'>
 			 
- <a href="#hide" id="hide">Show</a>
-<a href="#/" id="show">Hide</a>
-<div id="answer"><p>Answer</p></div>
-<a href="#hide" id="hide">Show</a>
-<a href="#/" id="show">Hide</a>
-<div id="answer"><p>Answer</p></div>
+ 
+
+
+ 
+  
+     <div class='fixed-nav'>  </div>
+		<a href="#hide" id="hide">Show</a>
+		<a href="#/" id="show">Hide</a>
+		{{ range first 5 (where .Site.RegularPages "Section" "in" "qs") }}
+
+					
+					<div id="answer" class='post-holder'>
+						<a href="{{ .Permalink }}" class="text-center main-font main-color-font" style="cursor: pointer;">{{ .Title }}</a>
+					       <p>  {{ .Summary }}</p>  
+					
+					 </div>
+<!-- 
+	 
+		 <div class='post-holder' id="answer">
+			 <article id='{{ anchorize .Title }}' class='post '>
+  			    <section class="post-content">
+					<a href="{{ .Permalink }}" class="text-center main-font main-color-font" style="cursor: pointer;">{{ .Title }}</a>
+					<div id="answer">
+					      <p>Answer</p>
+					 		<p>  {{ .Summary }}</p>  
+					 </div>
+				 </section> 
+            </article>
+			 <div class='post-after'></div>  <div class='post-holder'>
+ -->
+
+	{{ end }} 
  
 <!-- 
  
@@ -87,6 +113,7 @@
 		<div class='post-after'></div>  <div class='post-holder'>
 	{{ end }} 
  -->
+<!-- 
  
      <div class='fixed-nav'>  </div>
     {{ range first 5 (where .Site.RegularPages "Section" "in" "qs") }}
@@ -101,6 +128,7 @@
 			 <div class='post-after'></div>  <div class='post-holder'>
 	{{ end }} 
        
+ -->
          
 </main>
 {{ end }}
