@@ -29,7 +29,7 @@
         border: 4px  #cccccc;
         color:  black;
         text-align: center;
-        font-size: 20px;
+        font-size: 1rem;
         padding: 4px;
          font-family: "Roboto", serif;
         /* font: "/fonts/Poppins-MediumItalic.ttf", serif;  */
@@ -203,13 +203,23 @@ color: #f8c31f;
 	 
   
     position: absolute;
+    top: 25%;
+    left:1%; 
+    max-width: 25%; 
+    width: 35%;   
+}
+
+@media screen and (max-width: 340px) {
+  .taglineImage { 
+	 
+  
+    position: absolute;
     top: 45%;
     right:10%; 
     max-width: 25%; 
     width: 35%;   
 }
-
-
+}
 
 
   .QAImage { 
@@ -223,17 +233,7 @@ color: #f8c31f;
 }
 
 
-@media screen and (max-width: 340px) {
-  .taglineImage { 
-	 
-  
-    position: absolute;
-    top: 45%;
-    right:10%; 
-    max-width: 25%; 
-    width: 35%;   
-}
-}
+
   
 .topnav {
     position: absolute;
@@ -330,6 +330,11 @@ color: #f8c31f;
     font-size: 2em;
     padding: 0px;
   }
+
+	#hamnav { 
+	  color: #f2f2f2; 
+	  width: 25%;
+	}
 
   /* (C) TOGGLE SHOW/HIDE MENU */
   #hamitems { display: none; }
@@ -509,18 +514,6 @@ h6 {
   background-color: #fceba8;
 }
 
-.Header_inner {
-  position: absolute;
-  top: 10%;
-  right: 25%;
-  width: 40%;
-  max-width: 40%;
-/*   text-align: right; */
-  margin: 0 auto;/* 
-color: #3a4145;
-  background-color: #fceba8;
- */
-}
 
 @media screen and (max-width: 1400px) {
 .inner {
@@ -552,6 +545,58 @@ color: #3a4145;
 }
 
 
+
+.Header_inner {
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  width: 40%; 
+/*   text-align: right; */
+  margin: 0 auto;/* 
+color: #3a4145;
+  background-color: #fceba8;
+ */
+}
+
+
+@media screen and (max-width: 1400px) {
+.Header_inner {
+ 
+  top:  20%;
+ 
+}
+}
+
+
+@media screen and (max-width: 800px) {
+.Header_inner {
+ left: 25%;
+   width: 40%; 
+  top: 10%;
+  
+}
+}
+
+ 
+@media screen and (max-width: 600px) {
+  .HeaderTxt { 
+		font-size: 1rem; 
+			line-height: 1em; 
+	}
+}
+
+ 
+ 
+@media screen and (max-width : 340px) {
+ 
+	.HeaderTxt { 
+		font-size: 1rem; 
+			line-height: 1em; 
+	}
+}
+
+ 
+ 
 
 body {
     height: 100%;
