@@ -13,6 +13,29 @@
     height: 10%;
     margin-bottom: 0rem;
   }
+  
+/* 
+  
+ .details,
+.show,
+.hide:target {
+  display: none;
+}
+.hide:target + .show,
+.hide:target ~ .details {
+  display: block;
+}
+ */
+  #answer,
+#show,
+#hide:target {
+    display: none; 
+}
+
+#hide:target + #show,
+#hide:target ~ #answer {
+    display: inherit; 
+}
 </style>
 
 <header id="site-head"  > 
@@ -42,8 +65,28 @@
 				 </section> 
             </article>
 			 <div class='post-after'></div>  <div class='post-holder'>
+			 
+ <a href="#hide" id="hide">Show</a>
+<a href="#/" id="show">Hide</a>
+<div id="answer"><p>Answer</p></div>
+<a href="#hide" id="hide">Show</a>
+<a href="#/" id="show">Hide</a>
+<div id="answer"><p>Answer</p></div>
  
-		
+<!-- 
+ 
+      <div class='fixed-nav'>  </div>
+    {{ range first 5 (where .Site.RegularPages "Section" "in" "qs") }}
+	   <p>{{ .Summary }}</p>  
+		 <div class='post-holder'>
+			<a id="hide1" href="#hide1" class="hide">+ Summary goes here</a>
+			<a id="show1" href="#show1" class="show">- Summary goes here</a>
+				<div class="details">
+					{{ with .Summary }}<h2 class="QAtitle">{{ . }}</h2>{{ end }}     
+				</div>
+		<div class='post-after'></div>  <div class='post-holder'>
+	{{ end }} 
+ -->
  
      <div class='fixed-nav'>  </div>
     {{ range first 5 (where .Site.RegularPages "Section" "in" "qs") }}
@@ -58,8 +101,7 @@
 			 <div class='post-after'></div>  <div class='post-holder'>
 	{{ end }} 
        
- 
-                
+         
 </main>
 {{ end }}
 
