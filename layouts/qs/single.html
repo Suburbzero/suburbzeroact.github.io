@@ -3,33 +3,50 @@
 {{ $sections := $headless.Resources.ByType "page" }}
 {{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
 
- 
+<style>
+  #site-head {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 240px;
+    padding: 15% 0;
+    height: 10%;
+    margin-bottom: 0rem;
+  }
+</style>
+
 <header id="site-head"  > 
-                   <img  class="topMenuLeftImage" src="/images/S0_RGB_02_all_purple.svg"  > </img>
-        <img  class="QAImage"   src="/images/S0_web_faq.svg"  > </img>   
-     <div class="vertical"> 
+	<img  class="topMenuLeftImage" src="/images/S0_RGB_02_all_purple.svg"  > </img>
+	<h4  class="QAHeader"> Burning questions </h4> 
 
-        <div id="site-head-content" class="inner">  
-			 <h1  class="QAtxt"> Burning questions </h1>
-			 {{ with .Params.header_headline }}<h2 class="QAtitle">{{ . }}</h2>{{ end }}  
-				{{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }} 
-				
-				  <p class="QAtitle" ><br>  <strong>Want to help?</strong></p>
-				  <a class="QAtitle" href="https://surveymonkey.com/r/electrifyACT">   <button  >Take our survey</button> </a>  
-        </div> 
-             
+	<img  class="QAImage"   src="/images/S0_web_faq.svg"  > </img>   
+	<div class="vertical"> 
 
-  
-      
- 
-     </div>
+		<div id="site-head-content" class="site-head-content">   
+			{{ with .Params.header_headline }}<h2 class="QAtitle">{{ . }}</h2>{{ end }}  
+			{{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }} 
+
+	 	</div> 
+
+ </div>
 
 </header>
 
-<main class="content" role="main">
-         {{ .Content }}
+<main class="content" role="main"> 
+ 
+		 <div class='post-holder'>
+			 <article id='{{ anchorize .Title }}' class='post '>
+  			    <section class="post-content">
+					<a href="{{ .Permalink }}" class="text-center main-font main-color-font" style="cursor: pointer;">{{ .Title }}</a>
+					 <p> {{ .Content }}</p>  
+				 </section> 
+            </article>
+			 <div class='post-after'></div>  <div class='post-holder'>
+ 
+		
+ 
      <div class='fixed-nav'>  </div>
-    {{ range first 5 (where .Site.RegularPages "Section" "in" "post") }}
+    {{ range first 5 (where .Site.RegularPages "Section" "in" "qs") }}
 	 
 		 <div class='post-holder'>
 			 <article id='{{ anchorize .Title }}' class='post '>
@@ -38,8 +55,7 @@
 					 <p>{{ .Summary }}</p>  
 				 </section> 
             </article>
-			 <div class='post-after'></div>
-		</div>
+			 <div class='post-after'></div>  <div class='post-holder'>
 	{{ end }} 
        
  

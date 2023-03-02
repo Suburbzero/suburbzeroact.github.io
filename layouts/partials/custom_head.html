@@ -29,7 +29,7 @@
         border: 4px  #cccccc;
         color:  black;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding: 4px;
          font-family: "Roboto", serif;
         /* font: "/fonts/Poppins-MediumItalic.ttf", serif;  */
@@ -64,7 +64,7 @@ background-repeat: no-repeat;
   position: relative;
   display: table;
   width: 100%;
-  height: 100%;
+  height: 600px;
   padding: 25% 0;
   margin-bottom: 0rem;
   color: #fff;
@@ -95,18 +95,31 @@ letter-spacing: -1px;*/
 }
 
 
-.QAtitle {
-color: #f8c31f;
  
-width: 50%;  
- top: 20%;  	
-  float: left;  
-text-align: left; 
-margin: 10px 	30px;
+
+.QAtitle {
+	color: #f8c31f;
+   position: absolute;
+	width: 70%;  
+	top: 40%;  	
+	float: left;  
+	text-align: left; 
+	margin: 10px 	30px;
 
 
-color: #f8c31f;
-letter-spacing: -1px; 
+	color: #f8c31f;
+	letter-spacing: -1px; 
+}
+
+
+.QAHeader {
+	color: #f8c31f;
+	position: absolute;
+	width: 50%;  
+	left: 0%;	 
+	top: 25%; 
+	color:  #ff6d71;
+	letter-spacing: -1px;
 }
 
 .QAtxt {
@@ -122,6 +135,8 @@ margin: 10px 	30px;
 color: #f8c31f;
 letter-spacing: -1px; 
 }
+
+
 
 
 .HeaderTxt {
@@ -502,7 +517,38 @@ h6 {
 
 
 
+/* ---- */
+
+ 
+@media only screen and (max-width: 1130px) {
+   
+  #site-head { 
+     box-sizing: border-box;
+    min-height: 240px;
+    
+    height: 70%;
+    max-height: 640px;
+    padding: 15% 0; 
+    margin-bottom: 0rem;
+  }
+ 
+}
+ 
+@media only screen and (max-width: 500px) { 
+ #site-head {
+   
+    box-sizing: border-box;
+    min-height: 240px;
+    max-height: 640px;
+    padding: 15% 0; 
+    margin-bottom: 0rem;
+  }
+}
+
 /*body content styling*/
+
+
+
 /* Creates a responsive wrapper that makes our content scale nicely */
 .inner {
   position: absolute;
