@@ -40,18 +40,23 @@
 
 <header id="site-head"  > 
 	<img  class="topMenuLeftImage" src="/images/S0_RGB_02_all_purple.svg"  > </img>
-	<h4  class="QAHeader"> Burning questions </h4> 
+	<h4  class="QAHeader"> Burning Questions </h4> 
 
 	<img  class="QAImage"   src="/images/S0_web_faq.svg"  > </img>   
-	<div class="vertical"> 
+<!-- 	<div class="vertical">  -->
 
-		<div id="site-head-content" class="site-head-content">   
+	<!-- 	<div id="site-head-content" class="site-head-content">   
+
 			{{ with .Params.header_headline }}<h2 class="QAtitle">{{ . }}</h2>{{ end }}  
-			{{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }} 
+			{{ with .Params.header_subheadline }}<p class="QAtxt">{{ . }}</p>{{ end }} 
+ -->
+			
+			{{ with .Title }}<p class="QAtitle">{{ . }}</p>{{ end }} 
+		<!-- 	<article id='{{ anchorize .Title }}' class='post '> -->
 
 	 	</div> 
 
- </div>
+<!--  </div> -->
 
 </header>
 
@@ -69,11 +74,12 @@
  
 
 
- 
+ 	   
   
      <div class='fixed-nav'>  </div>
-		<a href="#hide" id="hide">Show</a>
-		<a href="#/" id="show">Hide</a>
+ <!--         <a href="https://surveymonkey.com/r/electrifyACT"> <br>  <button  >Take our survey</button> </a> -->
+		<a href="#hide" id="hide"> <button  >You have other questions??</button>  </a>
+		<a href="#/" id="show"><button  >Hide these other questions??</button> </a>
 		{{ range first 5 (where .Site.RegularPages "Section" "in" "qs") }}
 
 					
