@@ -5,13 +5,6 @@
 
 
 
-{{ define "main" }}
-{{ $headless := .Site.GetPage "/homepage" }}
-{{ $sections := $headless.Resources.ByType "page" }}
-{{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
-
-
-
 
 <header id="site-head" {{ with .Params.header_image }} style="background-image: url({{ . }})"{{ end }}>
   
@@ -28,10 +21,11 @@
 				  <p class="HeaderTxt" >{{.Params.header_subheadline }}<br><strong>Want to help?</strong>
 				  <a href="https://surveymonkey.com/r/electrifyACT"> <br>  <button  >Take our survey</button> </a>  </p>
 		</div>
-		
-	</div>	
+		 
+    </div>
+    
    <div class="topnav">
-   <nav id="hamnav">
+    <nav id="hamnav">
       <!-- (A) MENU WRAPPER -->
      
       <!-- (B) THE HAMBURGER -->
@@ -40,41 +34,35 @@
 
       <!-- (C) MENU ITEMS -->
       <div id="hamitems"> 
-           {{ range first 5 (where .Site.RegularPages "Section" "in" "qs") }}
-      					<a href="{{ .RelPermalink }}">{{.Params.brief  }}</a> 
-    		{{ end }}
-            {{ range where $sections ".Params.header_menu" "eq" true }}
-                    <a href='{{.Site.BaseURL}}&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
-            {{ end }}
-             
 
+            {{ range where $sections ".Params.header_menu" "eq" true }}
+                    <a href='&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
+            {{ end }}
+             {{ range .Pages }}
+      					<a href="{{ .RelPermalink }}">{{ .Title }}</a> 
+    		{{ end }}
         </div>
     </nav>
  </div> 
 </header>
 
-
-
- 
-
 <main class="content" role="main">
-
-     <div class='fixed-nav'>  </div>
-    {{ range first 5 (where .Site.RegularPages "Section" "in" "qs") }}
-	 
-		 <div class='post-holder'>
-			 <article id='{{ anchorize .Title }}' class='post '>
-  			    <section class="post-content">
-					<a href="{{ .Permalink }}" class="text-center main-font main-color-font" style="cursor: pointer;">{{ .Title }}</a>
-					 <p>{{ .Summary }}</p>  
-				 </section> 
-            </article>
-			 <div class='post-after'></div>
-		</div>
-	{{ end }} 
-       
- 
+    
+    <div class='fixed-nav'>
+    </div>
+     {{.Params.pages_parts}} 
+     {{- range where .Site.RegularPages "Type" "qs" -}} 
+        <div class='post-holder'>
+            <article>
+                <header class="post-header">
+                    <h2 class="post-title">{{ .Title }}</h2>
+                </header>
+                <section class="post-content">
                     {{ .Content }}
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    {{ end }}
 </main>
 {{ end }}
-

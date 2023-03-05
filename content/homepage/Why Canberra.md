@@ -13,7 +13,7 @@ While Canberrans have the enthusiasm and means to combat climate change, we donâ
 Our suggested program will help Canberrans save money, quickly swap out appliances and provide a cleaner future.
 {{< /column >}}
 {{< column >}}
-{{< figure src="images/S0_web_why_1x1.svg"   >}}
+{{< figure src="/images/S0_web_why_1x1.svg"   >}}
 {{< /column >}}
 
 {{< /container >}}

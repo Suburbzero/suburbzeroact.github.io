@@ -6,7 +6,7 @@ header_menu: true
 --- 
  {{< container >}}
 {{< column >}}
-{{< figure src="images/S0_web_about_1x1.svg"   >}}
+{{< figure src="/images/S0_web_about_1x1.svg"   >}}
 {{< /column >}}
 {{< column >}}
 We are a volunteer-based organisation in Canberra that is passionate about electrifying and decarbonising our community. With the rising cost of living, we want to help you significantly reduce your energy bills at the same time.<br><br>

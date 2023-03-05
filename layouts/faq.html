@@ -47,10 +47,12 @@
 </header>
 
 <main class="content" role="main">
-
+    FAQ
     <div class='fixed-nav'>
     </div>
-    {{ range $index_val, $elem_val := $sections }}
+     {{.Params.pages_parts}} 
+     {{ range where .Site.RegularPages "Type" {{.Params.pages_parts}} }}
+   <!--  {{ range $index_val, $elem_val := $sections }} -->
         <div class='post-holder'>
             <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ end }} {{ if eq (add $index_val 1) (len $sections) }}last{{ end }}'>
                 <header class="post-header">
