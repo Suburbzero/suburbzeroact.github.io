@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $headless := .Site.GetPage "/homepage" }}
+{{ $headless := .Site.GetPage "/faq" }}
 {{ $sections := $headless.Resources.ByType "page" }}
 {{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
 
@@ -47,13 +47,15 @@
 </header>
 
 <main class="content" role="main">
-    
+ 
+ default
+ {{ .Page.Permalink }}
     <div class='fixed-nav'>
-    </div>
-     {{.Params.pages_parts}} 
-     {{- range where .Site.RegularPages "Type" "qs" -}} 
+    </div> 
+     
+    {{ range $index_val, $elem_val := $sections }} 
         <div class='post-holder'>
-            <article>
+            <article id='{{ anchorize .Title }}' class='post first'>
                 <header class="post-header">
                     <h2 class="post-title">{{ .Title }}</h2>
                 </header>
@@ -65,4 +67,6 @@
         </div>
     {{ end }}
 </main>
+
+  
 {{ end }}
