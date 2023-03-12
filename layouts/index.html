@@ -38,7 +38,7 @@
             {{ range where $sections ".Params.header_menu" "eq" true }}
                     <a href='&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
             {{ end }}
-             {{ range first 5 .Pages }}
+             {{ range .Pages }}
       					<a href="{{ .RelPermalink }}">{{ .Title }}</a> 
     		{{ end }}
         </div>
