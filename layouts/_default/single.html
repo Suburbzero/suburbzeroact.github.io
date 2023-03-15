@@ -37,6 +37,7 @@
     vertical-align: top; 
     height:auto !important; 
 }
+/* 
 .list {
     display:none; 
     height:auto;
@@ -96,6 +97,7 @@
 	margin-bottom: 25px;
 	font-style: italic;
 }
+ */
  </style> 
 
 
@@ -103,8 +105,10 @@
 
 		{{ with .Params.header_headline }}<h5  class="PostHeader">{{ . }}</h5>{{ end }} 
 		<p class="PostsubHeader" ><strong>{{.Params.header_subheadline }}</strong> </p>
-		<p class="Postbutton" >
+	<!-- 
+	<p class="Postbutton" >
 		<br><strong>Want to take part? </strong><a href="https://surveymonkey.com/r/electrifyACT">  <button  >Take our survey</button> </a></p>
+ -->
 
 <!--     <div class="vertical"> -->
 <!-- 
@@ -128,18 +132,24 @@
 
 		 
 <!--     </div> -->
+<!-- 
     
    <div class="topnav">
   
     <nav id="hamnav">
-      <!-- (A) MENU WRAPPER -->
-      <!-- (B) THE HAMBURGER -->
+      <!~~ (A) MENU WRAPPER ~~>
+      <!~~ (B) THE HAMBURGER ~~>
       <label for="hamburger">&#9776;</label>
       <input type="checkbox" id="hamburger"/>
 
-      <!-- (C) MENU ITEMS -->
+      <!~~ (C) MENU ITEMS ~~>
       <div id="hamitems"> 
-
+        {{ range where $sections ".Params.header_menu" "eq" true }}
+                    <a href='&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
+            {{ end }}
+             {{ range .Pages }}
+      					<a href="{{ .RelPermalink }}">{{ .Title }}</a> 
+    		{{ end }}
              {{ range first 15 (where $sections ".Params.header_menu" "eq" true) }}
                     <a href='&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
             {{ end }}
@@ -149,12 +159,33 @@
         </div>
     </nav>
  </div> 
+ -->
 </header>
 
 <main class="content" role="main">
 
     <div class='fixed-nav'>
     </div> 
+    
+        {{ range $index_val, $elem_val := $sections }}
+        <div class='post-holder'>
+            <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ end }} {{ if eq (add $index_val 1) (len $sections) }}last{{ end }}'>
+  
+                <section class="post-content">
+                  
+               <details style="padding:10px;" {{ if eq $index_val 0 }}open{{ end }}>
+                   <!--  <h6 class="post-title">{{ .Title }}</h6>  </header>  -->
+                  <summary> <strong>{{ .Title }}</strong> .....  </summary>
+			 
+      
+                    {{ .Content }}
+                	</details>
+                </section>
+            </article>
+            <div class='post-after'></div>
+        </div>
+    {{ end }}
+    
     
     {{ range $index_val, $elem_val := $sections }} 
         <div class='post-holder'> 
