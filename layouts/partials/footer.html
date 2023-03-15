@@ -1,7 +1,9 @@
 <footer class="site-footer"> 
+
     {{ with .Site.Params.copyright }}
       <section class="copyright">{{ . | markdownify }}</section>{{ end }}
 
 
    {{ partial "share-buttons.html" . }}
+   
 </footer>

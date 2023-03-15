@@ -30,15 +30,81 @@
   /* (C) TOGGLE SHOW/HIDE MENU */
   #hamitems { display: none; }
   #hamnav input:checked ~ #hamitems { display: block; }
+  
+  /* source: http://www.ehow.com/how_12214447_make-collapsing-lists-java.html */
+
+.FAQ { 
+    vertical-align: top; 
+    height:auto !important; 
+}
+.list {
+    display:none; 
+    height:auto;
+    margin:0;
+    float: left;
+}
+.show {
+    display: none; 
+}
+.hide:target + .show {
+    display: inline; 
+}
+.hide:target {
+    display: none; 
+}
+.hide:target ~ .list {
+    display:inline; 
+}
+
+/*style the (+) and (-) */
+.hide, .show {
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	font-size: 20px;
+	color: #fff;
+	text-shadow: 0 1px 0 #666;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 1px 1px 2px #000;
+	background: #cccbbb;
+	opacity: .95;
+	margin-right: 0;
+	float: left;
+	margin-bottom: 25px;
+}
+
+.hide:hover, .show:hover {
+	color: #eee;
+	text-shadow: 0 0 1px #666;
+	text-decoration: none;
+	box-shadow: 0 0 4px #222 inset;
+	opacity: 1;
+	margin-bottom: 25px;
+}
+
+.list p{
+    height:auto;
+    margin:0;
+}
+.question {
+	float: left;
+	height: auto;
+	width: 90%;
+	line-height: 20px;
+	padding-left: 20px;
+	margin-bottom: 25px;
+	font-style: italic;
+}
  </style> 
 
 
 <header id="site-head" {{ with .Params.header_image }} style="background-image: url({{ . }})"{{ end }}>
 
 		{{ with .Params.header_headline }}<h5  class="PostHeader">{{ . }}</h5>{{ end }} 
-		<p class="PostsubHeader" >{{.Params.header_subheadline }} </p>
+		<p class="PostsubHeader" ><strong>{{.Params.header_subheadline }}</strong> </p>
 		<p class="Postbutton" >
-		<br><strong>Want to help? </strong><a href="https://surveymonkey.com/r/electrifyACT">  <button  >Take our survey</button> </a></p>
+		<br><strong>Want to take part? </strong><a href="https://surveymonkey.com/r/electrifyACT">  <button  >Take our survey</button> </a></p>
 
 <!--     <div class="vertical"> -->
 <!-- 
@@ -86,23 +152,32 @@
 </header>
 
 <main class="content" role="main">
-   
+
     <div class='fixed-nav'>
     </div> 
     
     {{ range $index_val, $elem_val := $sections }} 
-        <div class='post-holder'>
+        <div class='post-holder'> 
             <article id='{{ anchorize .Title }}' class='post first'>
                 <header class="post-header">
-                    <h6 class="post-title">{{ .Title }}</h6>
-                </header>
-                <section class="post-content">
+                         <section class="post-content">
+                         <details>
+                   <!--  <h6 class="post-title">{{ .Title }}</h6>  </header>  -->
+                  <summary><strong>{{ .Title }}</strong></summary>
+			 
+      
                     {{ .Content }}
-                </section>
+                	</details>
+                	
+                </section> 
             </article>
+            </div>
             <div class='post-after'></div>
         </div>
     {{ end }}
+    
+
+ 
 </main>
 
   
