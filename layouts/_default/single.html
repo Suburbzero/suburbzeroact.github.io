@@ -5,16 +5,15 @@
 
 
 <style>
- #hamitems a {
+ /* 
+#hamitems a {
     box-sizing: nil;
-   /* display: block; */
-    width: 100%;
+   display: block;    width: 100%;
     
     padding: 1px; 
   }
 
-  /* (B) SHOW HAMBURGER ICON */
-  #hamnav label {
+  (B) SHOW HAMBURGER ICON  #hamnav label {
     display: inline-block; 
     color: #a02620; 
     font-style: normal;
@@ -27,16 +26,16 @@
 	  width: 25%;
 	}
 
-  /* (C) TOGGLE SHOW/HIDE MENU */
-  #hamitems { display: none; }
+  (C) TOGGLE SHOW/HIDE MENU  #hamitems { display: none; }
   #hamnav input:checked ~ #hamitems { display: block; }
   
-  /* source: http://www.ehow.com/how_12214447_make-collapsing-lists-java.html */
-
+  source: http://www.ehow.com/how_12214447_make-collapsing-lists-java.html
 .FAQ { 
     vertical-align: top; 
     height:auto !important; 
 }
+ */
+
 /* 
 .list {
     display:none; 
@@ -102,7 +101,7 @@
 
 
 <header id="site-head" {{ with .Params.header_image }} style="background-image: url({{ . }})"{{ end }}>
-
+         
 		{{ with .Params.header_headline }}<h5  class="PostHeader">{{ . }}</h5>{{ end }} 
 		<p class="PostsubHeader" ><strong>{{.Params.header_subheadline }}</strong> </p>
 	<!-- 
@@ -132,18 +131,19 @@
 
 		 
 <!--     </div> -->
-<!-- 
+ 
     
    <div class="topnav">
+ 
   
     <nav id="hamnav">
-      <!~~ (A) MENU WRAPPER ~~>
-      <!~~ (B) THE HAMBURGER ~~>
+      
       <label for="hamburger">&#9776;</label>
       <input type="checkbox" id="hamburger"/>
-
-      <!~~ (C) MENU ITEMS ~~>
+ 
       <div id="hamitems"> 
+        <a href="{{ .Site.BaseURL }}">Suburb Zero</a>
+<!-- 
         {{ range where $sections ".Params.header_menu" "eq" true }}
                     <a href='&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
             {{ end }}
@@ -156,10 +156,11 @@
              {{ range .Pages }}
       					<a href="{{ .RelPermalink }}">{{ .Title }}</a> 
     		{{ end }}
-        </div>
-    </nav>
- </div> 
  -->
+        </div>  
+    </nav>
+
+ </div> 
 </header>
 
 <main class="content" role="main">
@@ -170,12 +171,14 @@
         {{ range $index_val, $elem_val := $sections }}
         <div class='post-holder'>
             <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ end }} {{ if eq (add $index_val 1) (len $sections) }}last{{ end }}'>
-  
-                <section class="post-content">
+			    <h6 class="post-title">{{ .Title }}</h6>  </header>                 
+			    <section class="post-content"><!-- 
+
                   
                <details style="padding:10px;" {{ if eq $index_val 0 }}open{{ end }}>
-                   <!--  <h6 class="post-title">{{ .Title }}</h6>  </header>  -->
-                  <summary> <strong>{{ .Title }}</strong> .....  </summary>
+ -->
+                  <details style="padding:10px;"  >
+                  <summary>  Answer.....  </summary>
 			 
       
                     {{ .Content }}
@@ -186,14 +189,32 @@
         </div>
     {{ end }}
     
+<!-- 
+   {{ range $index_val, $elem_val := $sections }}  
+      <article>
+      <!~~ this <div> includes the title summary ~~>
+      <div>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{ .Summary }}
+      </div>
+      {{ if .Truncated }}
+      <!~~ This <div> includes a read more link, but only if the summary is truncated... ~~>
+      <div>
+        <a href="{{ .RelPermalink }}">Read More…</a>
+      </div>
+      {{ end }}
+    </article>
     
+    {{ end }}
+ -->
+<!-- 
     {{ range $index_val, $elem_val := $sections }} 
         <div class='post-holder'> 
             <article id='{{ anchorize .Title }}' class='post first'>
                 <header class="post-header">
                          <section class="post-content">
                          <details>
-                   <!--  <h6 class="post-title">{{ .Title }}</h6>  </header>  -->
+                   <!~~  <h6 class="post-title">{{ .Title }}</h6>  </header>  ~~>
                   <summary><strong>{{ .Title }}</strong></summary>
 			 
       
@@ -207,6 +228,7 @@
         </div>
     {{ end }}
     
+ -->
 
  
 </main>
