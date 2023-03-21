@@ -20,7 +20,7 @@ header_menu: true
 {{< column >}}
  Interested in participating in the program or volunteering?  Or just want to show your support for the program? 
 <br><br>
-Tell us about yourself and let’s see where you fit in:     <a href="https://surveymonkey.com/r/electrifyACT"><button  >Take our survey</button> </a> or  {{< cloakemail address="suburbzeroact@gmail.com" display=" email" query="subject=Enquiry from SuburbZeroACT webpage">}} us directly.
+Tell us about yourself and let’s see where you fit in:     <a href="https://surveymonkey.com/r/electrifyACT"><button  >Take our survey  {{<ico notebook>}}</button> </a> or  {{< cloakemail address="suburbzeroact@gmail.com" display=" email" query="subject=Enquiry from SuburbZeroACT webpage">}} us directly.
 
 {{< /column >}}
 {{< /container >}}

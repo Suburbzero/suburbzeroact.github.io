@@ -1,8 +1,8 @@
 --- 
 title: "Resources" 
 header_image:  "/images/S0_web_faq.svg"
-header_headline: "sd"
-header_subheadline: "Some answers to frequently asked questions about the suburb zero ACT plan."
+header_headline: "Resources"
+header_subheadline: " to round out your knowledge and get you started on the journey to total electrification."
 hPages: "/resources"
 ---  
 
