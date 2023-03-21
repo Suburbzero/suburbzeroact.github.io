@@ -4,8 +4,7 @@ brief: "Why Canberra?"
 weight: 2
 header_menu: true
 --- 
-
-
+ 
  {{< container >}}
  {{< column >}}
 While Canberrans have the enthusiasm and means to combat climate change, we don’t always have the answers as to how we can make a difference in our daily lives and we find the patchwork of government policies daunting.
