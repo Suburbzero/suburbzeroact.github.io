@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 relativeURLs = true
  
 # The name of this wonderful theme ;-).
-theme = ["hugo-cloak-email","hugo-scroll"]
+theme = ["hugo-shortcode-roneo-collection", "hugo-cloak-email","hugo-scroll"]
 
 # The "title" of your website
 title = "Suburb Zero - electrify canberra"
@@ -29,8 +29,11 @@ title = "Suburb Zero - electrify canberra"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/S0_web_header_1x1.svg"]
-
+    images = ["images/S0_web_header_16x9.svg"]
+    
+    bannerImage = ["/images/S0_web_header_16x9.svg"]
+    
+    
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
