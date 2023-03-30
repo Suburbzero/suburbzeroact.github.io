@@ -1,16 +1,17 @@
 ---
 title: "Contact"
 layout: "contact"
-header_image:  "/images/S0_web_header_16x9.svg"
-header_headline: "Want to get in touch?" 
-header_subheadline: "Sure....." 
+header_image:  "/images/contact.svg"
+header_headline:     Please get in touch. We'd  very much love to hear from you via the survey, email or the contact form below.
+header_subheadline: 
+call_to_action:  You can show support, participate, or volunteer.
 ---
  
  
  {{< container >}}
 {{< column >}}
 <b> We’re currently in the process of building momentum.</b> <br><br>
- This page and program are being built to show the local and federal governments how much enthusiasm there is for climate action in Canberra.
+ This page and program are being built to show the local and federal governments how much enthusiasm there is for action in Canberra.
 
 
 

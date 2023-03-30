@@ -1,10 +1,9 @@
 --- 
 title: "Events" 
-header_image:  "/images/S0_web_header_16x9.svg"
-header_headline: "Events" 
+header_image:  "/images/events.svg"
+header_headline: "Noteworthy  - upcoming and past events" 
 layout: "events"
-header_subheadline: "forums, stalls, and fundraisers"
-hPages: "/Events"
+header_subheadline: "Join us"
+hPages: "/events"
 ---  
-
-scs
+ 
