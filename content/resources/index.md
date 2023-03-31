@@ -1,10 +1,9 @@
 --- 
 title: "Resources" 
-header_image:  "/images/resources.svg"
-header_headline: "Totally electrifying resources"
-layout: "Resources"
-header_subheadline: " to round out your knowledge and get you started on the journey."
+header_image:  "/images/S0_web_faq.svg"
+header_headline: "Resources"
+header_subheadline: " to round out your knowledge and get you started on the journey to total electrification."
 hPages: "/resources"
 ---  
- 
+
  

@@ -1,0 +1,30 @@
+
+
+{{ define "main" }}
+
+<style>
+body {background-color:  #fceba8 ;}
+h1, h2, h3, h4   {color: blue;  }	
+p    {color: black; }
+ 
+</style>
+
+
+<header id="site-head"  >
+    <img  class="QAImage"   src="{{.Site.BaseURL}}/images/S0_web_faq.svg"  > </img>    
+       <h1 class="post-title">{{ .Title }}</h1> 
+      <br> <br> 
+      <h2 class="post-title">Oh no. Something went wrong.</h2>     
+             <a href="{{ "/" | relURL }}"> <img src="{{.Site.BaseURL}}/images/S0_RGB_02_all_purple.svg"  class="topMenuLeftImage"  ></a>
+      <h4 class="post-title">
+     <br> <br>  
+            We are so sorry.  <br>That page is not here.<br>  or maybe temporarily having a rest. <br> 
+         Anyways....<br>
+         Please be patient with us. 
+         </h4>
+         <img   src="{{.Site.BaseURL}}/images/S0_web_header_16x9.svg"  > </img> 
+</header>
+  
+ 
+{{ end }}
+ 

@@ -99,22 +99,11 @@
 
 <header id="site-head" {{ with .Params.header_image }} style="background-image: url({{ . }})"{{ end }}>
          
-	{{ with .Params.title }}<h5  class="PostHeader">{{ . }}</h5>{{ end }} 
-	
-	<div class="PostmidHeader">
- 
-	{{ with .Params.header_headline }} {{ . }} {{ end }} <br>  
-	{{ with .Params.header_subheadline }} {{ . }} {{ end }} 
- 
-	</div>
-<!-- 
-		 {{ if .Params.header_headline }}<h4 class="f4 mt0 mb4 lh-title measure">{{ .Params.header_subheadline }}</h4>{{ end }}
+	{{ with .Params.header_headline }}<h5  class="PostHeader">{{ . }}</h5>{{ end }} 
+		<p class="PostsubHeader" ><strong>{{.Params.header_subheadline }}</strong> </p>
 		
-	
- -->	
- 
-	{{ with .Params.call_to_action }}<p class="PostLsubHeader" > {{ . }} </p>{{ end }} 
-
+		
+		
 		   <div class="topnav">
  
   

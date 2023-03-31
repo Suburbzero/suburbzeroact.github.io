@@ -1,5 +1,5 @@
 --- 
-title: "FAQ"  
+title: "faq"  
 header_image:  "/images/S0_web_faq.svg"
 
 layout: "faq"
