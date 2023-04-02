@@ -125,7 +125,7 @@ letter-spacing: -1px;*/
 	color:  #ff6d71;
 	letter-spacing: -1px;
 	
-	margin: 5px 	10px;
+	/* margin: 5px 	10px; */
 }
 
 .PostsubHeader {
@@ -136,8 +136,7 @@ letter-spacing: -1px;*/
 	left	: 10px;  
 	float: left;  	
 	font-size: 3rem;
-<<<<<<< HEAD
- */
+ 
 	text-align: left; 
 	margin: 2px 	10px;
 	
@@ -156,8 +155,7 @@ letter-spacing: -1px;*/
 	float: right;  	
 	font-size: 3rem;
 
-=======
->>>>>>> parent of c686655 (pages done)
+ 
 	text-align: left; 
 	margin: 2px 	10px;
 	
