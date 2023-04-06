@@ -103,33 +103,6 @@
 <header id="site-head" {{ with .Params.header_image }} style="background-image: url({{ . }})"{{ end }}>
          
 		{{ with .Params.header_headline }}<h5  class="PostHeader">{{ . }}</h5>{{ end }}  
-	<!-- 
-	<p class="Postbutton" >
-		<br><strong>Want to take part? </strong><a href="https://surveymonkey.com/r/electrifyACT">  <button  >Take our survey</button> </a></p>
- -->
-
-<!--     <div class="vertical"> -->
-<!-- 
-		<img  class="topMenuLeftImage" src="/images/S0_RGB_02_all_purple.svg"  > </img>
-		<img  class="taglineImage"   src="/images/S0_web_tagline_centre.svg"  > </img>
- -->
-<!-- 
-		<div id="site-head-content" class="Header_inner">  
- 
- -->
-		<!-- 
-	 {{ with .Params.header_headline }}<h1 class="blog-title">{{ . }}</h1>{{ end }}  
- -->
-<!-- 
-
-				{{ with .Params.header_subheadline }}<p class="PostHeader">{{ . }}</p>{{ end }} 
- -->
-	
-				    
-	<!-- 	</div> -->
-
-		 
-<!--     </div> -->
  
     
    <div class="topnav">
@@ -142,20 +115,7 @@
  
       <div id="hamitems"> 
         <a href="{{ .Site.BaseURL }}">Suburb Zero</a>
-<!-- 
-        {{ range where $sections ".Params.header_menu" "eq" true }}
-                    <a href='&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
-            {{ end }}
-             {{ range .Pages }}
-      					<a href="{{ .RelPermalink }}">{{ .Title }}</a> 
-    		{{ end }}
-             {{ range first 15 (where $sections ".Params.header_menu" "eq" true) }}
-                    <a href='&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
-            {{ end }}
-             {{ range .Pages }}
-      					<a href="{{ .RelPermalink }}">{{ .Title }}</a> 
-    		{{ end }}
- -->
+ 
         </div>  
     </nav>
 
