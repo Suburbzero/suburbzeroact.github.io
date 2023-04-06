@@ -18,6 +18,6 @@ hPages: "/faq"
 
 Bobby
 
-Here's  some answers to common questions. 
+Below are  some answers to common questions. 
 
  
