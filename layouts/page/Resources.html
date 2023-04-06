@@ -102,8 +102,7 @@
 
 <header id="site-head" {{ with .Params.header_image }} style="background-image: url({{ . }})"{{ end }}>
          
-		{{ with .Params.header_headline }}<h5  class="PostHeader">{{ . }}</h5>{{ end }} 
-		<p class="PostLsubHeader" > {{.Params.header_subheadline }}  </p>
+		{{ with .Params.header_headline }}<h5  class="PostHeader">{{ . }}</h5>{{ end }}  
 	<!-- 
 	<p class="Postbutton" >
 		<br><strong>Want to take part? </strong><a href="https://surveymonkey.com/r/electrifyACT">  <button  >Take our survey</button> </a></p>
@@ -164,7 +163,12 @@
 </header>
 
 <main class="content" role="main">
-
+  	    <div  class='post-holder'   >
+    <strong>{{.Params.header_subheadline  }} </strong>  
+    		   <div  align="right"> 
+				<a href="{{ .Site.BaseURL }}contact/"><button>Contact us  {{ partial "ico" "message" }} </button> </a>  </p>
+		 </div> 
+     </div>
     <div class='fixed-nav'>
     </div> 
     

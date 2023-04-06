@@ -113,7 +113,7 @@
 	
  -->	
  
-	{{ with .Params.call_to_action }}<p class="PostLsubHeader" > {{ . }} </p>{{ end }} 
+	<!-- {{ with .Params.call_to_action }}<p class="PostLsubHeader" > {{ . }} </p>{{ end }}  -->
 
 		   <div class="topnav">
  
@@ -133,7 +133,9 @@
 </header>
 
 <main class="content" role="main">
-
+   	    <div  class='post-holder'   >
+    <strong>{{.Params.call_to_action  }} </strong>  
+     </div>
  
     <div class='fixed-nav'>
     </div> 

@@ -5,7 +5,7 @@ header_image:  "/images/S0_web_faq.svg"
 layout: "faq"
 header_headline: "You have burning questions?"
 header_subheadline:  |
-    Let's cool   down with some answers....
+    Let's cool   down with some answers.... and if you can't find the answer here then get in touch.
    
 hPages: "/faq"
 ---  
