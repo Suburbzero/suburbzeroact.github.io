@@ -1,7 +1,7 @@
 ---
 title: "About the program"
 brief: "About"
-weight: 1
+weight: 2
 header_menu: true
 --- 
  {{< container >}}
