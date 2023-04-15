@@ -14,7 +14,7 @@ header_menu: true
 {{< /column >}}
 {{< column >}}
 
-
+{{< figure src="stalls florey.jpg"   >}}
 {{< figure src="stalls3.jpeg"   >}}
 {{< /column >}}
 {{< /container >}}

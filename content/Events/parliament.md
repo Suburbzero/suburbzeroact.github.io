@@ -12,9 +12,7 @@ header_menu: true
 {{< column >}}
 {{< figure src="parliament.jpeg"   >}}  
  {{< tweet user="RewiringAus" id="1640826631110680576" >}}
- David also did a press confrerence and has a media release which included an ask for electrify canberra:
-
-https://www.davidpocock.com.au/statement_on_energy_price_relief_plan
+ 
 {{< /column >}}
 {{< column >}}
 
