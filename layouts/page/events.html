@@ -152,13 +152,14 @@
              {{ range .Pages }}
       					<a href="{{ .RelPermalink }}">{{ .Title }}</a> 
     		{{ end }}
-             {{ range first 15 (where $sections ".Params.header_menu" "eq" true) }}
-                    <a href='&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
-            {{ end }}
+
              {{ range .Pages }}
       					<a href="{{ .RelPermalink }}">{{ .Title }}</a> 
     		{{ end }}
  -->
+                   {{ range first 5 (where $sections ".Params.header_menu" "eq" true) }}
+                    <a href='&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
+            {{ end }}
         </div>  
     </nav>
 
