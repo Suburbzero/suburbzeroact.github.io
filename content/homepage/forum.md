@@ -5,7 +5,7 @@ weight: 1
 header_menu: false
 --- 
 
-Friday, 21st April 6.30pm, Kambri at ANU   {{< rawhtml >}} 
+Fri, 21 Apr 2023 **5:30 PM - 7:30 PM**: Manning Clark Hall, Kambri Cultural Centre, ANU {{< rawhtml >}} 
 <a href="https://www.eventbrite.com.au/e/suburb-zero-act-launch-tickets-601031119257"><button  > {{< ico brand-instagram >}}RSVP via eventbrite{{< ico icon="star" theme="solid" class="red medium" >}}</button></a>
  {{< /rawhtml >}}
  
