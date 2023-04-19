@@ -8,13 +8,16 @@ header_menu: false
 ---  
  
 Senator David Pocock hosts Saul Griffith, inventor and author, to discuss how to help Canberrans electrify their households, saving money and the climate.
-   
-   
+ 
+
 Fri, 21 Apr 2023 **5:30 PM - 7:30 PM**: Manning Clark Hall, Kambri Cultural Centre, ANU  {{< rawhtml >}} 
 <a href="https://www.eventbrite.com.au/e/suburb-zero-act-launch-tickets-601031119257"><button  > {{< ico brand-instagram >}}RSVP via eventbrite{{< ico icon="star" theme="solid" class="red medium" >}}</button></a>
  {{< /rawhtml >}}	
  
 ###### Suburb Zero is coming to the Australian Capital Territory! 
+
+  
+   
  {{<details  "Panel">}}
 Saul Griffith, inventor and author
 
@@ -40,7 +43,7 @@ The yet-to-be-chosen Canberra suburb will have its own set of unique challenges 
 
 The trial seeks to test solutions to the social, technological, regulatory and economic challenges associated with rapid decarbonisation of existing housing and apartments. The pilot also seeks to demonstrate full, retro-fitted, electrification of large, complex buildings, cold climate electrification and smart technology integration.
 {{</details>}} 	
-
+ {{< tweet user="DavidPocock" id="1646673227471814656" >}}
 {{< figure src="Forum 21st april.jpeg"   >}}
  
 
