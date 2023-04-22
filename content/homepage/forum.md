@@ -1,21 +1,25 @@
 ---
-title: "Electrify Canberra Forum"
+title: "After the Electrify Canberra Forum - Are you keen to participate?"
 brief: "Forum"
 weight: 1
 header_menu: false
 --- 
-
-Fri, 21 Apr 2023 **5:30 PM - 7:30 PM**: Manning Clark Hall, Kambri Cultural Centre, ANU {{< rawhtml >}} 
-<a href="https://www.eventbrite.com.au/e/suburb-zero-act-launch-tickets-601031119257"><button  > {{< ico brand-instagram >}}RSVP via eventbrite{{< ico icon="star" theme="solid" class="red medium" >}}</button></a>
+Are you inspired by the recent launch? We certainly were. It was a blast.  
+{{< rawhtml >}} 
+ {{< ico icon="account-multiple-plus" theme="material" class="red medium" >}}
+We welcome volunteers. We need them. The task is as large as it is exiting.  <a href="https://www.surveymonkey.com/r/SZVolunteer"><button  >
+Suburb Zero Volunteer Sign up {{<ico notebook>}} {{< ico icon="account-multiple-plus" theme="material" class="red medium" >}}</button> </a> 
  {{< /rawhtml >}}
+ 
+ 
  
  {{< container >}}
 {{< column >}}
 Suburb Zero is coming to the Australian Capital Territory! <br><br>
  
-Join Senator David Pocock  as he hosts Saul Griffith, inventor and author, to discuss how to help Canberrans electrify their households, saving money and the climate.
+At the launch on Friday 21st April, Senator David Pocock and Saul Griffith, inventor and author, to discussed how to help Canberrans electrify their households, saving money and the climate.
 
-Details on our events page.
+ 
 {{< /column >}}
 {{< column >}}
 {{< figure src="/events/Forum 21st april.jpeg"   >}}
