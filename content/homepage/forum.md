@@ -17,7 +17,7 @@ Suburb Zero Volunteer Sign up {{<ico notebook>}} {{< ico icon="account-multiple-
 {{< column >}}
 Suburb Zero is coming to the Australian Capital Territory! <br><br>
  
-At the launch on Friday 21st April, Senator David Pocock and Saul Griffith, inventor and author, to discussed how to help Canberrans electrify their households, saving money and the climate.
+At the launch on Friday 21st April, Senator David Pocock and Saul Griffith, inventor and author,  discussed how to help Canberrans electrify their households, save money and the climate.
 
  
 {{< /column >}}
