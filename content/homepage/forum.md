@@ -8,7 +8,7 @@ Are you inspired by the recent launch? We certainly were. It was a blast.
 {{< rawhtml >}} 
  {{< ico icon="account-multiple-plus" theme="material" class="red medium" >}}
 We welcome volunteers. We need them. The task is as large as it is exiting.  <a href="https://www.surveymonkey.com/r/SZVolunteer"><button  >
-Suburb Zero Volunteer Sign up {{<ico notebook>}} {{< ico icon="account-multiple-plus" theme="material" class="red medium" >}}</button> </a> 
+ Volunteer Sign up {{<ico notebook>}} {{< ico icon="account-multiple-plus" theme="material" class="red medium" >}}</button> </a> 
  {{< /rawhtml >}}
  
  
@@ -24,7 +24,15 @@ At the launch on Friday 21st April, Senator David Pocock and Saul Griffith, inve
 {{< column >}}
 {{< figure src="/events/Forum 21st april.jpeg"   >}}
  
+
+
+ 
 {{< /column >}}
 {{< /container >}}
+
+ 
+ 
+  
   
  
+ {{< video src="https://der-lab.cecs.anu.edu.au/Suburb-Zero-Talk.mp4"   poster="/homepage/launch.jpg" preload="true"   >}}   
