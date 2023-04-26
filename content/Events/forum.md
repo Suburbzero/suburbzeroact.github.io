@@ -20,6 +20,10 @@ Senator David Pocock hosted  Saul Griffith, inventor and author.<br><br>
   {{< tweet user="DavidPocock" id="1646673227471814656" >}}
 {{< /column >}}  
    {{< /container >}}
+   
+    
+ ### Watch the forum
+  
  {{< video src="https://der-lab.cecs.anu.edu.au/Suburb-Zero-Talk.mp4"   poster="/homepage/launch.jpg" preload="true"   >}}   
  
  
