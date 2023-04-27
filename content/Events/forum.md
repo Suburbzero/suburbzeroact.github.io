@@ -32,11 +32,14 @@ A big thank you to the Battery Storage and Grid Integration Program at the ANU f
 As we all know, the key to success is getting funding. So, let's start chatting with our other ACT Senator and Minister for Finance, Senator Katy Gallagher.
 
 
+ 
+
 We have put together an email example, attached to this letter. It really makes a difference if you personalise it, adding details like why this is important for you and why you think it should be funded. Please send it to Senator Gallagher at
  senator.katy.gallagher@aph.gov.au
 
 
  
+
 Thank you to all the people who have already reached out offering to help, we will be in contact with you soon.
 
 Many hands make light work and if you are interested in volunteering with us, please get in contact. 
