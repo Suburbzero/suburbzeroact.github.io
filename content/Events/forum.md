@@ -25,59 +25,38 @@ A big thank you to the Battery Storage and Grid Integration Program at the ANU f
 
 {{< figure src="crowd.png"   >}}
 
+ 
 
 
  
 
+.
+
+
+ 
+ 
+
+
+ 
+{{< /column >}}
+{{< column >}}
 As we all know, the key to success is getting funding. So, let's start chatting with our other ACT Senator and Minister for Finance, Senator Katy Gallagher.
 
 
- 
-
-We have put together an email example, attached to this letter. It really makes a difference if you personalise it, adding details like why this is important for you and why you think it should be funded. Please send it to Senator Gallagher at
- senator.katy.gallagher@aph.gov.au
-
+  
+  {{< tweet user="DavidPocock" id="1646673227471814656" >}}
 
  
 
 Thank you to all the people who have already reached out offering to help, we will be in contact with you soon.
 
-Many hands make light work and if you are interested in volunteering with us, please get in contact. 
- via this link!
-
-
- <br> <br>
-
+Many hands make light work and if you are interested in volunteering with us, please get in  contact. <a href="https://www.surveymonkey.com/r/SZVolunteer"><button  >
+ Volunteer Sign up {{<ico notebook>}} {{< ico icon="account-multiple-plus" theme="material" class="red medium" >}}</button> </a> 
+ <br><br>
 Finally, we sold out of T-shirts on Friday night (thank you!) and are planning to make another order. If you would like one ($40) please
    {{< rawhtml >}} 
 <a href="https://www.surveymonkey.com/r/SZtshirts"><button  > fill this form {{< ico icon="star" theme="solid" class="red medium" >}}</button></a>
- {{< /rawhtml >}}  and we will make sure we order some in your size.
-
-
- 
-
-Electrified by your support,
-
-
- 
-
-Mel, Sarah and the Suburb Zero team
-Suburb Zero ACT Community Group
- 
-www.suburbzeroact.au
-Instagram: @suburbzeroACT
-Let's lead the way to electrification!
-We acknowledge the traditional custodians of the land we live on and pay respects to the Elders of the ACT region past, present and emerging.
-
-
-Suburb Zero is coming to the Australian Capital Territory!<br><br>
-Fri, 21 Apr 2023 at  Manning Clark Hall, Kambri Cultural Centre, ANU<br><br>
- 
-Senator David Pocock hosted  Saul Griffith, inventor and author.<br><br>
- They discussed   how to help Canberrans electrify their households, to save money and the climate.
-{{< /column >}}
-{{< column >}}
-  {{< tweet user="DavidPocock" id="1646673227471814656" >}}
+ {{< /rawhtml >}}  and we will make sure we order some in your size
 {{< /column >}}  
    {{< /container >}}
    
