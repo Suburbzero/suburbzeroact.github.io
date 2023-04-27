@@ -32,7 +32,7 @@ title = "Suburb Zero - electrify canberra"
     images = ["images/S0_web_header_16x9.svg"]
     
     bannerImage = ["/images/S0_web_header_16x9.svg"]
-    
+     
     
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
