@@ -1,10 +1,10 @@
 ---
 title: "Electrify Canberra Forum"
-header_headline: "ELECTRIFY CANBERRA FORUM"
+header_headline: "FORUM"
 header_subheadline: ""
-brief: " Electrify Canberra Forum"
+brief: " Forum"
 weight: 1 
-header_menu: false
+header_menu: true
 ---  
  
 
