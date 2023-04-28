@@ -31,6 +31,7 @@ A big thank you to the Battery Storage and Grid Integration Program at the ANU f
  
 
 .
+  {{< tweet user="DavidPocock" id="1646673227471814656" >}}
 
 
  
@@ -43,8 +44,6 @@ A big thank you to the Battery Storage and Grid Integration Program at the ANU f
 As we all know, the key to success is getting funding. So, let's start chatting with our other ACT Senator and Minister for Finance, Senator Katy Gallagher.
 
 
-  
-  {{< tweet user="DavidPocock" id="1646673227471814656" >}}
 
  
 
@@ -57,6 +56,9 @@ Finally, we sold out of T-shirts on Friday night (thank you!) and are planning t
    {{< rawhtml >}} 
 <a href="https://www.surveymonkey.com/r/SZtshirts"><button  > fill this form {{< ico icon="star" theme="solid" class="red medium" >}}</button></a>
  {{< /rawhtml >}}  and we will make sure we order some in your size
+ 
+   {{< tweet user="SuburbZeroACT" id="1651192092490870785" >}}
+
 {{< /column >}}  
    {{< /container >}}
    
