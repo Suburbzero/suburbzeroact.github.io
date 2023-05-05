@@ -1,10 +1,23 @@
 --- 
-title: "Events" 
-header_image:  "/images/events.svg"
+title: "Events"  
 header_headline: "Noteworthy  - upcoming and past events" 
 layout: "events"
+header_image:  "/images/events.svg"
 header_subheadline: "Join us to learn about our proposal at one of our events."
-hPages: "/events"
-images: ["Forum 21st april.jpeg"]
+hPages: "/events" 
+author: "Garry Jolley-Rogers per SuburbZeroACT" 
+header_subheadline: ""  
+date: 2023-04-03
+draft: false
+toc: false
+images: 
+  - /images/events.svg
+url: /events/
+categories:
+  - events 
+tags:
+  - events
 ---  
+ 
+ 
  

@@ -8,7 +8,19 @@ header_subheadline:  |
     Let's cool   down with some answers.... and if you can't find the answer here then get in touch.
    
 hPages: "/faq"
+author: "Garry Jolley-Rogers per SuburbZeroACT" 
+date: 2023-04-03 
+draft: false
+toc: false
+images: 
+  - /images/S0_web_header_16x9.svg
+url: /faq/
+categories:
+  - faq 
+tags:
+  - faq
 ---  
+ 
 
 > "Full electrification would unlock thousands of dollars of energy bill savings for households every single year into the future."
 
@@ -18,6 +30,6 @@ hPages: "/faq"
 
 Bobby
 
-Below are  some answers to common questions. 
+###### Below are  some answers to common questions. 
 
  
