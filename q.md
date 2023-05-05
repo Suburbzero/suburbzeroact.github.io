@@ -1,3 +1,20 @@
+---
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+categories:
+  -
+tags:
+  -
+description: "add description"
+toc: false
+thumbnail: 
+images: []
+draft: true
+GHissueID: 
+---
+
+Add post here.
+
 Suburb Zero ACT/Electrify Canberra Official Launch
 
 Last Friday (21 April), Senator David Pocock and Saul Griffith officially launched Suburb Zero/Electrify Canberra at ANU. Over 600 Canberrans were energised by the discussion on why electrification is the answer and by the panellists painting a picture of what Suburb Zero could look like for Canberrans.
