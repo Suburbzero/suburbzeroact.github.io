@@ -185,7 +185,33 @@
         {{ range $index_val, $elem_val := $sections }}
         <div class='post-holder'>
             <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ end }} {{ if eq (add $index_val 1) (len $sections) }}last{{ end }}'>
-			    <h6 class="post-title">{{ .Title }}</h6>  </header>                 
+
+			    <h6 class="post-title">{{ .Title }}</h6>  </header> 
+			    
+			    				<!-- Created Date -->
+				<small>
+				 <div  align="right"> 
+				{{- $pubdate := .PublishDate.Format "02.01.2006" }}
+				posted: 
+					<time datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">
+					{{ $pubdate }}
+					</time>
+
+				<!-- Last Updated Date -->
+				{{- if .Lastmod }}
+				{{- $lastmod := .Lastmod.Format "02.01.2006" }}
+					{{- if ne $lastmod $pubdate }}
+						<div class="post-info-last-mod">
+						(Updated: 
+						<time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">
+						{{ $lastmod }}
+						</time>)
+						</div>
+					{{- end }}
+				{{- end }}
+                </div>
+				</small>
+                
 			    <section class="post-content"><!-- 
 
                   

@@ -3,9 +3,13 @@ title: "Stalls"
 header_headline: "Stalls"
 header_subheadline: ""
 brief: "Stalls"
-weight: 1 
+weight: 4 
+date: 2023-03-10
+author: "GJR"  
+
 header_menu: true
 ---  
+
 
 {{< container >}}
 {{< column >}}

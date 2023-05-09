@@ -3,9 +3,13 @@ title: "Getting the word out - letterboxing"
 header_headline: "Letterboxing"
 header_subheadline: ""
 brief: "letterboxing"
-weight: 4
+weight: 4 
+date: 2023-01-31
+author: "GJR"  
+
 header_menu: true
 ---  
+
 
 {{< container >}}
 {{< column >}}

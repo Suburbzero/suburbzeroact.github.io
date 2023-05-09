@@ -3,9 +3,12 @@ title: "Electrify Canberra Forum"
 header_headline: "FORUM"
 header_subheadline: ""
 brief: " Forum"
-weight: 1 
+weight: 1  
+date: 2023-04-21
+author: "GJR" 
 header_menu: true
 ---  
+
  
 
   {{< container >}}

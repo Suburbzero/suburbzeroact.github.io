@@ -3,8 +3,11 @@ title: "Trivia night fundraiser"
 header_headline: "Trivia night"
 header_subheadline: ""
 brief: "Trivia night"
-weight: 3 
-header_menu: true
+weight: 4 
+date: 2023-03-17
+author: "GJR"  
+
+header_menu: false
 ---  
 
 {{< container >}}
