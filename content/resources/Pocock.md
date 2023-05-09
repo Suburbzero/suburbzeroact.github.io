@@ -16,27 +16,26 @@ to reinstate the Household Energy Consumption Survey (abolished by the Abbott go
 
 
 
-"David Pocock is a huge advocate for electrification, convinced it is the long-term solution to easing power bill pressure on Australian households.
+>"David Pocock is a huge advocate for electrification, convinced it is the long-term solution to easing power bill pressure on Australian households. To prove it can work, he has asked the government to trial the electrification of a Canberra suburb.
+>That means solar panels on roofs, heat pumps, batteries and so on.
+>The Parliamentary Budget Office has estimated it would cost $11.3 million over four years to help 1000 households make the switch."
 
-To prove it can work, he has asked the government to trial the electrification of a Canberra suburb.
-
-That means solar panels on roofs, heat pumps, batteries and so on.
-
-The Parliamentary Budget Office has estimated it would cost $11.3 million over four years to help 1000 households make the switch."
 [Source Canberra Times](https://www.canberratimes.com.au/story/8020632/)
-
+ 
+ 
   {{< container >}}
 {{< column >}} 
+ {{< tweet user="DavidPocock" id="1654973247040126976" >}}
  {{< tweet user="DavidPocock" id="1640517951983083522" >}}
- {{< tweet user="DavidPocock" id="1630125277933363200" >}}
-  {{< tweet user="DavidPocock" id="1603156136546357249" >}}
  
+ {{< tweet user="DavidPocock" id="1611957317289017345" >}}
 {{< /column >}}
 {{< column >}}
  {{< tweet user="DavidPocock" id="1602828110633656320" >}}
  {{< tweet user="DavidPocock" id="1603159087755055104" >}} 
   
- {{< tweet user="DavidPocock" id="1611957317289017345" >}}
+ {{< tweet user="DavidPocock" id="1630125277933363200" >}}
+  {{< tweet user="DavidPocock" id="1603156136546357249" >}}
  
 {{< /column >}}
 {{< /container >}}

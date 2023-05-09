@@ -29,9 +29,9 @@ title = "Suburb Zero - electrify canberra"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/S0_web_header_16x9.svg"]
+    images = ["images/S0_web_header_16x9.png"]
     
-    bannerImage = ["/images/S0_web_header_16x9.svg"]
+    bannerImage = ["/images/S0_web_header_16x9.png"]
      
     
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
@@ -41,9 +41,14 @@ title = "Suburb Zero - electrify canberra"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
- hidedesignbyline = true
+    hidedesignbyline = true
 
     [params.meta]
         keywords = "Canberra, energy, decarbonise, climate change, savings"
 
  
+ 
+   
+ 
+[taxonomies]
+  series = 'series'
