@@ -7,22 +7,22 @@ weight: 1
 header_menu: true
 ---  
  
-Well that was great!
+
   {{< container >}}
-{{< column >}}
+{{% column %}}
+#### Well that was great!
 On Friday 21st April, Senator David Pocock and Saul Griffith officially launched Suburb Zero/Electrify Canberra at ANU. Over 600 Canberrans were energised by the discussion on why electrification is the answer and by the panellists painting a picture of what Suburb Zero could look like for Canberrans.
-{{< /column >}}
+
+>We know household electrification can save families thousands of dollars. Electrification reduces emissions and can unite neighbours in a way that discussions on climate action do not.
+
+{{% /column %}}
 {{< column >}}
 
-{{< figure src="suburb zero ACT launch.jpg"   >}}
+{{% figure src="suburb zero ACT launch.jpg"   %}}
 {{< /column >}}  
    {{< /container >}}
 
 Sarah Reid, Community Lead, Electrify Canberra/Suburb Zero ACT 
-
->We know household electrification can save families thousands of dollars. Electrification reduces emissions and can unite neighbours in a way that discussions on climate action do not.
-
-
 
 >"Electrify Canberra is about bringing our communities together, building resilience. It's the conversations we have with our family, friends and neighbours at the kitchen table and at the tea station at work: getting an induction cooktop, switching to a hot water heat pump, getting off gas. Everyone should want to be part of it. It's a global game changer for everyday Australians and the planet. It’s such an exciting initiative. Let's Electrify Canberra! 
 
