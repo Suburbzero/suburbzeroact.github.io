@@ -2,9 +2,11 @@
 title: "Senator David Pocock"
 brief: "Senator David Pocock"
 weight: 7
+weight: 1 
+date: 2023-04-15
+author: "GJR"
 header_menu: true
---- 
-
+---  
  Senator Pocock has asked the government to consider broadening the package to include funding:
 
 >to establish a national Transition Authority that will help workers and communities in fossil fuel reliant regions move to new careers and drive economic activity in the renewable energy sector;
