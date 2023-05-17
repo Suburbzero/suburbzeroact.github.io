@@ -1,7 +1,7 @@
 ---
 title: "Australian Parents for Climate Action"
 brief: "Australian Parents for Climate Action"
-weight: 12
+weight:  2
 header_menu: true
 --- 
 
