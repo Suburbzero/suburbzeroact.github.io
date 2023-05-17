@@ -1,5 +1,5 @@
 ---
-title: "Rewire Australia"
+title: ""
 brief: "Rewire Australia"
 weight:  10
 header_menu: true

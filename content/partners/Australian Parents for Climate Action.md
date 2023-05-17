@@ -1,5 +1,5 @@
 ---
-title: "Australian Parents for Climate Action"
+title: " "
 brief: "Australian Parents for Climate Action"
 weight:  2
 header_menu: true
