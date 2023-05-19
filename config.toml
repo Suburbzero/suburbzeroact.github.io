@@ -4,10 +4,11 @@ baseURL = "https://www.suburbzeroact.au/"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
-
+author = "Garry Jolley-Rogers per S0"
 defaultContentLanguage = "en"
 relativeURLs = true
- 
+googleAnalytics = "G-SZBV9GNNKH"
+
 # The name of this wonderful theme ;-).
 theme = ["hugo-shortcode-roneo-collection", "hugo-cloak-email","hugo-scroll"]
 
