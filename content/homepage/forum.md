@@ -17,7 +17,7 @@ Suburb Zero is coming to the Australian Capital Territory! <br><br>
 {{< rawhtml >}} 
  {{< ico icon="account-multiple-plus" theme="material" class="red medium" >}}
 We welcome volunteers. We need them. <br>The task is as large as it is exiting.  <a href="https://www.surveymonkey.com/r/SZVolunteer"><button  >
-   Sign up {{<ico notebook>}} {{< ico icon="account-multiple-plus" theme="material" class="red medium" >}}</button> </a> 
+   Sign up {{<ico notebook>}} {{< ico icon="account-multiple-plus" theme="material" class="red medium" >}}</button></a> 
  {{< /rawhtml >}}<br><br>
 
 

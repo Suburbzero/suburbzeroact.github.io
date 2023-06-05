@@ -70,7 +70,7 @@ As we all know, the key to success is getting funding. So, let's start chatting 
 Thank you to all the people who have already reached out offering to help, we will be in contact with you soon.
 
 Many hands make light work and if you are interested in volunteering with us, please get in  contact. <a href="https://www.surveymonkey.com/r/SZVolunteer"><button  >
- Volunteer Sign up {{<ico notebook>}} {{< ico icon="account-multiple-plus" theme="material" class="red medium" >}}</button> </a> 
+ Volunteer Sign up {{<ico notebook>}} {{< ico icon="account-multiple-plus" theme="material" class="red medium" >}}</button></a> 
  <br><br>
 Finally, we sold out of T-shirts on Friday night (thank you!) and are planning to make another order. If you would like one ($40) please
    {{< rawhtml >}} 
