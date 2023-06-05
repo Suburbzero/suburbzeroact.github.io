@@ -8,6 +8,8 @@ header_subheadline: "Thoughts, observations, and ideas  -- that come to us as we
 hPages: "/blog"  
 date: 2023-04-03
 draft: false
+
+header_menu: true
 toc: false
 thumbnail: "/images/logo.png"
 images:    ["/images/S0_web_header_16x9.png"]

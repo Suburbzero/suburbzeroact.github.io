@@ -64,7 +64,7 @@
             {{ range where $sections ".Params.header_menu" "eq" true }}
                     <a href='&#35;{{ anchorize .Title }}'>{{  .Params.brief }}</a>
             {{ end }}
-             {{ range .Pages }}
+             {{ range  where .Pages ".Params.header_menu" "=" true  }}
       					<a href="{{ .RelPermalink }}">{{ .Title }}</a> 
     		{{ end }}
     		

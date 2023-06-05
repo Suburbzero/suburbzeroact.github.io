@@ -4,6 +4,7 @@ layout: "contact"
 header_image:  "/images/contact.svg"
 header_headline:     Please get in touch. We'd  very much love to hear from you via the survey, email or the contact form below.
 header_subheadline: 
+header_menu: true
 call_to_action:  You can show support, participate, or volunteer.
 ---
  

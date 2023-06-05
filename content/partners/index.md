@@ -5,6 +5,8 @@ header_headline: "Partners "
 layout: "partners"
 header_subheadline: "and like minded organisations."
 hPages: "/partners"
+
+header_menu: true
 author: "Garry Jolley-Rogers per SuburbZeroACT" 
 date: 2023-04-03 
 draft: false
