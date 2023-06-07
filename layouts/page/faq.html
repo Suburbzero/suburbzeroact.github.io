@@ -187,15 +187,16 @@
  
         {{ range $index_val, $elem_val := $sections }}
         <div class='post-holder'>
+        	
             <article id='{{ anchorize .Title }}' class='post {{ if eq $index_val 0 }}first{{ end }} {{ if eq (add $index_val 1) (len $sections) }}last{{ end }}'>
-			    <h6 class="post-title">{{ .Title }}</h6>  </header>                 
-			    <section class="post-content"><!-- 
+			                   
+			    <section class="post-content">
 
-                  
+			    <!--  
                <details style="padding:10px;" {{ if eq $index_val 0 }}open{{ end }}>
  -->
                   <details style="padding:10px;"  >
-                  <summary>   .....  </summary>
+                  <summary  class="wrapper" style=" font-weight: bold;">   {{ .Title }}   <div class="tooltip">show</div> </summary>
 			 
       
                     {{ .Content }}
@@ -206,6 +207,7 @@
         </div>
     {{ end }}
     
+
 <!-- 
    {{ range $index_val, $elem_val := $sections }}  
       <article>

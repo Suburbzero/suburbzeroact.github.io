@@ -19,7 +19,7 @@ Lots of great Suburb Zero chats at the BBQ fundraiser before Senator Pocock’s 
  {{< container >}}
 {{< column >}}
  
-   {{< figure src="woden town hall 2.jpg"   >}} 
+   {{< figure src="./woden town hall 2.jpg"   >}} 
    
    {{< figure src="woden town hall 3.jpg"   >}}   
  {{< /column >}}
