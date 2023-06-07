@@ -34,7 +34,6 @@ We welcome volunteers. We need them. <br>The task is as large as it is exiting. 
 
  
  ### Watch the forum
-  
-  
+   
+ {{< video src="https://der-lab.cecs.anu.edu.au/Suburb-Zero-Talk.mp4"   poster="S0_RGB_01_mono_hi.png"  caption="The  launch" preload="true" class="ba" >}}   
  
- {{< video src="https://der-lab.cecs.anu.edu.au/Suburb-Zero-Talk.mp4"   poster="S0_RGB_01_mono_hi.png"  caption="The  launch" preload="true"   >}}   
