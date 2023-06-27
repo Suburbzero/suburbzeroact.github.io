@@ -1,9 +1,9 @@
 --- 
-title: "gg" 
+title: "Forum" 
 header_image:  "/images/S0_web_header_16x9.svg"
-header_headline: "gallery" 
-layout: "partners"
-header_subheadline: "..."
+header_headline: "Launch Forum" 
+layout: "events"
+header_subheadline: "Well, what a great start. If you're in Canberra or the neighbourhood it is not too late to become involved."
 header_menu: false
 hPages: "/forum-gallery"
 author: "Garry Jolley-Rogers per SuburbZeroACT" 
@@ -14,9 +14,9 @@ images:
   - /images/S0_web_header_16x9.svg
 url: /forum-gallery/
 categories:
-  - partners 
+  - launch 
 tags:
-  - partners
+  - launch
 ---  
  
  
